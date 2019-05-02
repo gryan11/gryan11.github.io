@@ -82,12 +82,12 @@ analytics:
 author:
   name             : ""
   avatar           : "profile.jpg"
-  bio              : "Security and Machine Learning Researcher"
+  bio              : "Phd Candidate in Security and ML at Columbia University"
   location         : 
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "gabe@cs.columbia.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "gabrielryan1"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -175,10 +175,10 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  publications:
     output: true
     permalink: /:collection/:path/
-  publications:
+  teaching:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -209,19 +209,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _publications
   - scope:
       path: ""
-      type: teaching
+      type: publications
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _teaching
   - scope:
       path: ""
-      type: publications
+      type: teaching
     values:
       layout: single
       author_profile: true
