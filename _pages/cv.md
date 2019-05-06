@@ -11,26 +11,11 @@ redirect_from:
 
 
 <!-- <object data="http://localhost:4000/files/gabriel_ryan_cv.pdf" type="application/pdf" width="700px" height="700px"> -->
-<object data="{{ base_path }}/files/gabriel_ryan_cv.pdf" type="application/pdf"  width="600px" height="700px">
+<object data="{{ base_path }}/files/gabriel_ryan_cv.pdf" type="application/pdf"  width="600px" height="800px">
     <embed src="{{ base_path }}/files/gabriel_ryan_cv.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ base_path }}/files/gabriel_ryan_cv.pdf">Download PDF</a>.</p>
     </embed>
 </object>
-
-<!--
-<object data="https://github.com/gryan11/resume/raw/master/cv/gabriel_ryan_cv.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/gryan11/resume/raw/master/cv/gabriel_ryan_cv.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/gryan11/resume/raw/master/cv/gabriel_ryan_cv.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-<object data="http://www.cs.tufts.edu/~remco/publications/2018/InfoVis2018-Entropy.pdf" type="application/pdf" width="700px" height="1400px">
-    <embed src="http://www.cs.tufts.edu/~remco/publications/2018/InfoVis2018-Entropy.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/gryan11/resume/raw/master/cv/gabriel_ryan_cv.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
--->
 
 
 
