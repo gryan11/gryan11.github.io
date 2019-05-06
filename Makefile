@@ -11,5 +11,9 @@ serve:
 watch:
 	bundle exec jekyll build --watch --config _config.yml,_config.dev.yml
 
+deploy:
+	bundle exec jekyll build  --config _config.yml,_config.rel.yml
+	pushd _site; scp -r * gabe@clic.cs.columbia.edu:~/html/; popd
+
 clean:
 	rm -r _site
