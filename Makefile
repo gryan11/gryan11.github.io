@@ -13,7 +13,7 @@ watch:
 
 deploy:
 	bundle exec jekyll build  --config _config.yml,_config.rel.yml
-	pushd _site; scp -r * gabe@clic.cs.columbia.edu:~/html/; popd
+	pushd _site; scp -r * gabe@compute.cs.columbia.edu:~/html/; popd
 
 clean:
 	rm -r _site
