@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gabriel Ryan"
+title                    : "Gabriel Ryan - PhD Candidate at Columbia University"
 title_separator          : "-"
 name                     : &name "Gabriel Ryan"
-description              : &description "personal description"
+description              : &description "Personal website for Gabriel Ryan, PhD Candidate at Columbia University studying applications of Deep Learning for Cyber Security."
 url                      : https://gryan11.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gryan11/gryan11.github.io"
