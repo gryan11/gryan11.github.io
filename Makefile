@@ -16,4 +16,4 @@ deploy:
 	pushd _site; scp -r * gabe@compute.cs.columbia.edu:~/html/; popd
 
 clean:
-	rm -r _site
+	-rm -r _site
