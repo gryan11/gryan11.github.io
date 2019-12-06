@@ -51,6 +51,12 @@
 /* remove border*/
 .page__content {
 
+  p, li, dl {
+    font-size: 11pt;
+    //font-size: 1em;
+  }
+
+
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -90,6 +96,13 @@
    ========================================================================== */
 
 .list__item {
+
+
+  p, li, dl {
+    font-size: 11pt;
+    //font-size: 1em;
+  }
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
