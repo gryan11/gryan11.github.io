@@ -28,7 +28,7 @@
     {% if post.collection == 'publications' %}
 
     <p>
-      <b>[{{post.venue}} {{post.year}}]</b> {{ title }}.
+      <b>[{{post.venue}} {{post.year}}]</b> {{post.title}}.
       <i>{{ post.authors }}</i>. 
       {% if post.paperurl %} [<a href="{{post.paperurl}}">paper</a>] {% endif %}
       {% if post.codeurl %} [<a href="{{post.codeurl}}">code</a>] {% endif %}
