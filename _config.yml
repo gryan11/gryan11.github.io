@@ -86,7 +86,7 @@ author:
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=6mW4eCcAAAAJ&hl=en&oi=ao"
   email            : "gabe@cs.columbia.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
