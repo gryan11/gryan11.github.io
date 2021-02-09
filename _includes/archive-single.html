@@ -37,7 +37,7 @@
 
     {% else %}
 
-    <b>{{ post.title }}</b> &nbsp;<span style="font-size:.8em;"><time  datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%b. %d, %Y" }}</time></span>
+    <b>{{ post.title }}</b> &nbsp;<span style="font-size:.85em;white-space:nowrap;"><time  datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%b. %d, %Y" }}</time></span>
 
       
           {% if post.collection == 'teaching' %}
