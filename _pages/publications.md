@@ -1,9 +1,11 @@
 ---
-layout: archive
 title: "Publications"
+layout: archive
 permalink: /publications/
-author_profile: true
+author_profile: false
+sidebar: false
 ---
+
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
