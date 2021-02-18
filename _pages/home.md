@@ -13,6 +13,6 @@ I am a PhD Candidate at Columbia University, where I work in the Security Group 
 {% endfor %}
 
 ### Awards
-<b>National Defense Science and Engineering Graduate Fellowship (NDSEG).</b> Won fellowship for proposal "Proximal Gradient Analysis for Vulnerability Detection and Defense." 2019
+<b>National Defense Science and Engineering Graduate Fellowship (NDSEG).</b> Won fellowship for proposal "Proximal Gradient Analysis for Vulnerability Detection and Defense." 2019 [[proposal]({{ base_path }}/files/NDSEG_proposal.pdf)] [[personal_statement]({{ base_path }}/files/ndseg_personal_statement.pdf)]
 
 <b>NSF Graduate Research Fellowship Honorable Mention.</b> Received honorable mention for proposal "Modeling and Simulating Adversarial User Behavior with Sequential VAEs." 2018
