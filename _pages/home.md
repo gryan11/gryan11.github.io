@@ -12,6 +12,8 @@ I am a PhD Candidate at Columbia University, where I work in the Security Group 
   {% include archive-single.html %}
 {% endfor %}
 
+*authors contributed equally.
+
 ### Awards
 <b>National Defense Science and Engineering Graduate Fellowship (NDSEG).</b> Won NDSEG Fellowship for proposal "Proximal Gradient Analysis for Vulnerability Detection and Defense." 2019 [[proposal]({{ base_path }}/files/NDSEG_proposal.pdf)] [[personal_statement]({{ base_path }}/files/NDSEG_personal_statement.pdf)]
 
