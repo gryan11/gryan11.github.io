@@ -8,7 +8,7 @@ I am a PhD Candidate at Columbia University, where I work in the Security Group 
 
 ### Internships
 
-**Microsoft Research 2021.** Internship with Microsoft Research RiSE group advised by  Todd Mytkowitz and Shuvendu Lahiri. Developed *NUTS: Neural Unit Test Suggestions* system using neural transformers and a specialized grammar to automatically generate unit tests that are highly effective at finding bugs (170% improvement over any other evaluated system). Available as Arxiv <a href="https://arxiv.org/pdf/2109.09262.pdf">preprint</a>.
+**Microsoft Research 2021.** Internship with Microsoft Research RiSE group advised by  Todd Mytkowitz and Shuvendu Lahiri. Developed *TOGA: A Neural Method for Test Oracle Generation* using neural transformers and a specialized grammar to automatically generate unit tests that are highly effective at finding bugs (170% improvement over any other evaluated system). Published in ICSE 2022: <a href="https://arxiv.org/pdf/2109.09262.pdf">preprint</a>.
 
 
 
