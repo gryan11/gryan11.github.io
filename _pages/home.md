@@ -8,7 +8,7 @@ I am a PhD Candidate at Columbia University, where I work in the Security Group 
 
 ### Internships
 
-**Microsoft Research 2021.** Internship with Microsoft Research RiSE group advised by  Todd Mytkowitz and Shuvendu Lahiri. Developed *TOGA: A Neural Method for Test Oracle Generation* using neural transformers and a specialized grammar to automatically generate unit tests that are highly effective at finding bugs (170% improvement over any other evaluated system). Published in ICSE 2022: <a href="https://arxiv.org/pdf/2109.09262.pdf">preprint</a>.
+**Microsoft Research 2021.** Internship with Microsoft Research RiSE group advised by  Todd Mytkowitz and Shuvendu Lahiri. Developed *TOGA: A Neural Method for Test Oracle Generation* using neural transformers and a specialized grammar to automatically generate unit tests that are highly effective at finding bugs (170% improvement over any other evaluated system). Published in ICSE 2022 and awarded ACM Sigsoft Distinguished Paper Award: <a href="https://arxiv.org/pdf/2109.09262.pdf">paper</a>.
 
 
 
@@ -18,7 +18,13 @@ I am a PhD Candidate at Columbia University, where I work in the Security Group 
   {% include archive-single.html %}
 {% endfor %}
 
-*authors contributed equally.
+
+<!--### Teaching-->
+
+<!--<b>Continuous Logic Networks.</b> Teaching Assistant and co-lecturer. Spring 2020.-->
+
+<!--<b>Intrusion Detection Systems.</b> Teaching Assistant. Fall 2019.-->
+
 
 ### Awards
 <b>National Defense Science and Engineering Graduate Fellowship (NDSEG).</b> Won NDSEG Fellowship for proposal "Proximal Gradient Analysis for Vulnerability Detection and Defense." 2019 [[proposal]({{ base_path }}/files/NDSEG_proposal.pdf)]

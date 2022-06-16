@@ -28,18 +28,19 @@
     {% if post.collection == 'publications' %}
 
     <p>
-      <b>[{{post.venue}} {{post.year}}]</b> {{post.title}}.
-      <i>{{ post.authors }}</i>. 
+    <b>[{{post.venue}} {{post.year}}]</b> {{post.title}}.
+      <i>{{ post.authors }}</i>.
       {% if post.paperurl %} [<a href="{{post.paperurl}}">paper</a>] {% endif %}
       {% if post.codeurl %} [<a href="{{post.codeurl}}">code</a>] {% endif %}
       {% if post.poster %} [<a href="{{base_path}}{{post.poster}}">poster</a>] {% endif %}
+      {% if post.label %}<b>{{post.label}}</b>{% endif %}
     </p>
 
     {% else %}
 
     <b>{{ post.title }}</b> &nbsp;<span style="font-size:.85em;white-space:nowrap;"><time  datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%b. %d, %Y" }}</time></span>
 
-      
+
           {% if post.collection == 'teaching' %}
             <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
@@ -49,7 +50,7 @@
       {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
       {% endif %}
-     
+
     {% endif %}
 
   </article>
