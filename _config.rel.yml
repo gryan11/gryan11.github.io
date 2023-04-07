@@ -1,6 +1,6 @@
 # Release override settings
 
-url: https://www.cs.columbia.edu/~gabe
+url: https://www.cs.columbia.edu/~gabe/
 
 analytics:
   provider: false
