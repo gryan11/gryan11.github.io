@@ -8,6 +8,10 @@ I am a PhD Candidate at Columbia University, where I work in the Security Group 
 
 ### Internships
 
+
+**AWS A.I. Labs 2023.** Internship with AWS A.I. Labs on using Large Language Models for regression testing software. Developed novel approach to LLM test generation using static analysis to prompt the model to reason symbolically about program execution paths. Achieved improvements of $2\times$ coverage and $3\times$ correct test generations over baselines when evaluated on CodeGen2 and OpenAI GPT-3.5 and GPT-4 models.
+
+
 **Microsoft Research 2021.** Internship with Microsoft Research RiSE group advised by  Todd Mytkowitz and Shuvendu Lahiri. Developed *TOGA: A Neural Method for Test Oracle Generation* using neural transformers and a specialized grammar to automatically generate unit tests that are highly effective at finding bugs (170% improvement over any other evaluated system). Published in ICSE 2022 and awarded ACM Sigsoft Distinguished Paper Award: <a href="https://arxiv.org/pdf/2109.09262.pdf">paper</a>.
 
 
