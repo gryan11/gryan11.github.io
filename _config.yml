@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gabriel Ryan - PhD Candidate at Columbia University"
+title                    : "Gabriel Ryan - Research Scientist at Microsoft CoreAI"
 title_separator          : "-"
 name                     : &name "Gabriel Ryan"
-description              : &description "Personal website for Gabriel Ryan, PhD Candidate at Columbia University studying applications of Deep Learning for Cyber Security."
+description              : &description "Personal website for Gabriel Ryan, Research Scientist at Microsoft CoreAI"
 url                      : https://gryan11.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gryan11/gryan11.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : ""
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate in Security and ML at Columbia University"
-  location         : 
+  bio              : "Research Scientist at Microsoft CoreAI"
+  location         :
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=6mW4eCcAAAAJ&hl=en&oi=ao"
   email            : "gabe@cs.columbia.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
