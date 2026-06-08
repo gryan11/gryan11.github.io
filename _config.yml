@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gabriel Ryan - Research Scientist at Microsoft CoreAI"
+title                    : "Gabriel Ryan"
 title_separator          : "-"
 name                     : &name "Gabriel Ryan"
-description              : &description "Personal website for Gabriel Ryan, Research Scientist at Microsoft CoreAI"
+description              : &description "Personal website for Gabriel Ryan, Research Scientist at Microsoft CodeAI"
 url                      : https://gryan11.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gryan11/gryan11.github.io"
@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : profile.jpg  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : "Gabriel Ryan"
   avatar           : "profile.jpg"
-  bio              : "Research Scientist at Microsoft CoreAI"
+  bio              : "Research Scientist at Microsoft CodeAI"
   location         :
   employer         :
   pubmed           :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : #"gabrielryan1"
+  linkedin         : "gabrielryan1"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -256,7 +256,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

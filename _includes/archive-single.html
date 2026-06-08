@@ -29,11 +29,12 @@
 
     <p>
     <b>[{{post.venue}} {{post.year}}]</b> {{post.title}}.
-      <i>{{ post.authors }}</i>.
+      <i>{{ post.authors | replace: "Gabriel Ryan", "<b>Gabriel Ryan</b>" }}</i>.
       {% if post.paperurl %} [<a href="{{post.paperurl}}">paper</a>] {% endif %}
       {% if post.codeurl %} [<a href="{{post.codeurl}}">code</a>] {% endif %}
       {% if post.poster %} [<a href="{{base_path}}{{post.poster}}">poster</a>] {% endif %}
       {% if post.label %}<b>{{post.label}}</b>{% endif %}
+      {% if post.tldr %}<br><span style="color:#555;"><i>TL;DR: {{ post.tldr }}</i></span>{% endif %}
     </p>
 
     {% else %}
