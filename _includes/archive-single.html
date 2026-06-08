@@ -27,15 +27,20 @@
     {% endif %}
     {% if post.collection == 'publications' %}
 
-    <p>
-    <b>[{{post.venue}} {{post.year}}]</b> {{post.title}}.
-      <i>{{ post.authors | replace: "Gabriel Ryan", "<b>Gabriel Ryan</b>" }}</i>.
-      {% if post.paperurl %} [<a href="{{post.paperurl}}">paper</a>] {% endif %}
-      {% if post.codeurl %} [<a href="{{post.codeurl}}">code</a>] {% endif %}
-      {% if post.poster %} [<a href="{{base_path}}{{post.poster}}">poster</a>] {% endif %}
-      {% if post.label %}<b>{{post.label}}</b>{% endif %}
-      {% if post.tldr %}<br><span style="color:#555;"><i>TL;DR: {{ post.tldr }}</i></span>{% endif %}
-    </p>
+    <div class="pub-entry">
+      <span class="pub-entry__venue">{{ post.venue }} &middot; {{ post.year }}</span>
+      {% if post.label %}<span class="pub-entry__award">{{ post.label | strip }}</span>{% endif %}
+      <div class="pub-entry__title">{{ post.title }}</div>
+      <div class="pub-entry__authors">{{ post.authors | replace: "Gabriel Ryan", "<b>Gabriel Ryan</b>" }}</div>
+      {% if post.tldr %}<div class="pub-entry__tldr">{{ post.tldr }}</div>{% endif %}
+      {% if post.paperurl or post.codeurl or post.poster %}
+      <div class="pub-entry__links">
+        {% if post.paperurl %}<a href="{{post.paperurl}}" class="pub-entry__link">paper</a>{% endif %}
+        {% if post.codeurl %}<a href="{{post.codeurl}}" class="pub-entry__link">code</a>{% endif %}
+        {% if post.poster %}<a href="{{base_path}}{{post.poster}}" class="pub-entry__link">poster</a>{% endif %}
+      </div>
+      {% endif %}
+    </div>
 
     {% else %}
 

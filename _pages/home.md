@@ -11,13 +11,24 @@ I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organi
 
 ### Current Work at Microsoft CodeAI
 
-**GitHub Copilot Subagents & Context Management.** I am working on custom models for Copilot subagents, context compaction, and memory generation — enabling Copilot's agentic workflows to delegate focused sub-tasks and operate effectively over long horizons.
-
-**Context Retrieval Embedding Models.** I trained embedding models used to index GitHub for Copilot's context retrieval. [[GitHub blog post](https://github.blog/news-insights/product-news/copilot-new-embedding-model-vs-code/)]
-
-**Code Completion Models.** I worked on training the code completion models that power GitHub Copilot in editors used by millions of developers.
-
-**Code Quality Evaluation for Copilot Code Review.** I trained code quality evaluation models used in Copilot Code Review, helping the system identify substantive issues in pull request changes.
+<div class="work-grid">
+  <div class="work-card">
+    <div class="work-card__title">Copilot Subagents &amp; Context Management</div>
+    <div class="work-card__body">Training custom models for Copilot subagents, context compaction, and memory generation — enabling agentic workflows to delegate focused sub-tasks and operate over long horizons.</div>
+  </div>
+  <div class="work-card">
+    <div class="work-card__title">Context Retrieval Embeddings</div>
+    <div class="work-card__body">Trained the embedding models used to index GitHub for Copilot's context retrieval. <a href="https://github.blog/news-insights/product-news/copilot-new-embedding-model-vs-code/">[GitHub blog]</a></div>
+  </div>
+  <div class="work-card">
+    <div class="work-card__title">Code Completion Models</div>
+    <div class="work-card__body">Trained the code completion models that power GitHub Copilot in editors used by millions of developers.</div>
+  </div>
+  <div class="work-card">
+    <div class="work-card__title">Copilot Code Review</div>
+    <div class="work-card__body">Trained code quality evaluation models used in Copilot Code Review, helping the system identify substantive issues in pull request changes.</div>
+  </div>
+</div>
 
 ### Background
 
