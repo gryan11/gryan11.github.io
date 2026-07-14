@@ -11,7 +11,7 @@ author_profile: true
 
 I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organization training specialized models behind GitHub Copilot. My work spans the underlying models that power AI-driven software development — code completion, context retrieval, agentic coding workflows, and automated code review. -->
 
-I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organization on AI-driven software development. My work spans model training and harness design, including completion, context retrieval, and agentic code review now shipping in GitHub Copilot to millions of developers. Before that, my PhD research combined program analysis and machine learning, developing neural methods for program verification, test generation, and vulnerability detection. I'm interested in how far agents can be pushed on real software engineering tasks, particularly through improvements to post-training and multi-agent design.
+I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organization on AI-driven software development. My work spans model training and harness design, including completion, context retrieval, and agentic code review now shipping in GitHub Copilot to millions of developers. I'm interested in how far agents can be pushed on real software engineering tasks, particularly through improvements to post-training and multi-agent design.
 
 
 
@@ -38,7 +38,7 @@ I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organi
 
 ### Background
 
-I received my PhD from Columbia University in 2023, advised by Prof. [Suman Jana](http://www.cs.columbia.edu/~suman/), where I worked on AI-driven security and software development. During my PhD I interned at **AWS AI Labs** (2023) and **Microsoft Research RiSE** (2021), resulting in publications at FSE '24 and ICSE '22 (Distinguished Paper Award).
+I received my PhD from Columbia University in 2023, advised by Prof. [Suman Jana](http://www.cs.columbia.edu/~suman/), where my PhD research combined program analysis and machine learning, developing neural methods for program verification, test generation, and vulnerability detection. During my PhD I interned at **AWS AI Labs** (2023) and the **Microsoft Research RiSE Group** (2021), resulting in publications at FSE '24 and ICSE '22 (Distinguished Paper Award).
 
 **Awards:** ICSE 2022 Distinguished Paper Award, OSDI 2021 Best Paper Award, and National Defense Science and Engineering Graduate Fellowship (NDSEG).
 
