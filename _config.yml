@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Gabriel Ryan"
 title_separator          : "-"
 name                     : &name "Gabriel Ryan"
-description              : &description "Personal website for Gabriel Ryan, Research Scientist at Microsoft CodeAI"
+description              : &description "Personal website for Gabriel Ryan, Senior Research Scientist at Microsoft CodeAI"
 url                      : https://gryan11.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gryan11/gryan11.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Gabriel Ryan"
   avatar           : "profile.jpg"
-  bio              : "Research Scientist at Microsoft CodeAI"
+  bio              : "Senior Research Scientist, Microsoft CodeAI"
   location         :
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=6mW4eCcAAAAJ&hl=en&oi=ao"
-  email            : "gabe@cs.columbia.edu"
+  email            : "gabriel.ryan11@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
