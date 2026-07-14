@@ -8,4 +8,5 @@ authors: Jianan Yao*, Gabriel Ryan*, Justin Wong*, Suman Jana, and Ronghui Gu
 venue: 'PLDI'
 paperurl: 'https://arxiv.org/pdf/2003.07959.pdf'
 codeurl: 'https://github.com/jyao15/G-CLN'
+tldr: "Gated Continuous Logic Networks learn nonlinear loop invariants, solving 26 of 27 benchmarks, three more than prior work."
 ---
