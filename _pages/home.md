@@ -9,9 +9,8 @@ author_profile: true
 <!-- I am a PhD Candidate at Columbia University, where I work in the Security Group under Professors [Suman Jana](http://www.cs.columbia.edu/~suman/) and [Salvatore Stolfo](https://salvatorestolfo.com/). I am generally interested in Deep Learning based approaches to Program Analysis and Synthesis. -->
 <!-- My research interests are at the intersection of Machine Learning, Programming Languages, and Security. My work focuses on developing unified approaches with neural and formal methods for program analysis and synthesis.
 
-I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organization training specialized models behind GitHub Copilot. My work spans the underlying models that power AI-driven software development — code completion, context retrieval, agentic coding workflows, and automated code review. -->
-
-I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organization on AI-driven software development. My work spans model training and harness design, including completion, context retrieval, and agentic code review now shipping in GitHub Copilot to millions of developers. I'm interested in how far agents can be pushed on real software engineering tasks, particularly through improvements to post-training and multi-agent design.
+I am a Senior Research Scientist at Microsoft, where I work in the CodeAI organization on AI-driven software development. My work spans model training and harness design, including completion, context retrieval, and agentic code review now shipping in GitHub Copilot to millions of developers.
+I'm interested in post-training and multi-agent methods for building more capable agents across software engineering and related domains that require complex reasoning and long-term planning.
 
 
 
