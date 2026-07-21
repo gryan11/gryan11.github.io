@@ -31,7 +31,7 @@ I'm interested in post-training and multi-agent methods for building more capabl
   </div>
   <div class="work-card">
     <div class="work-card__title">Copilot Code Review</div>
-    <div class="work-card__body">Trained code quality evaluation models used in Copilot Code Review, helping the system identify substantive issues in pull request changes.</div>
+    <div class="work-card__body">Optimizing agent design and evaluations for more accurate and useful code review.</div>
   </div>
 </div>
 
